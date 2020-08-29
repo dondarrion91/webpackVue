@@ -1,0 +1,26 @@
+{
+  "name": "webpackVue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development --open",
+    "dev:prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^4.3.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
